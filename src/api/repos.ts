@@ -9,4 +9,6 @@ export default {
   method: "GET"
 };
 
+export type Response = Repo[];
+
 export const getEntry = api => api.repos;
