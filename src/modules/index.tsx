@@ -11,7 +11,7 @@ export const reducer = combineReducers({
 
 export default () =>
   <Switch>
-    <Route path={paths.index} exact component={Main as any} />
+    <Route path={paths.main} exact component={Main as any} />
   </Switch>;
 
 export const epic = combineEpics(mainEpic);
